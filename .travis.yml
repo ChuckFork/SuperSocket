@@ -19,7 +19,7 @@ script:
     - dotnet build
     - cd samples
     - dotnet build
-    - cd ../test/Test
+    - cd ../test/SuperSocket.Tests
     - dotnet test
     - bash ./tools/travis-ci-build.sh
 global:
