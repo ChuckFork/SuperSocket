@@ -1,6 +1,8 @@
 language: csharp
 mono: none
 dotnet: 3.1.100
+git:
+  depth: false
 sudo: required
 
 addons:
